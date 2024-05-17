@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/modules/incubator/nft/exported"
-	"github.com/cosmos/modules/incubator/nft/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/exported"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/types"
 )
 
 // IsNFT returns whether an NFT exists

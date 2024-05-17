@@ -11,15 +11,15 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	sim "github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/modules/incubator/nft/client/cli"
-	"github.com/cosmos/modules/incubator/nft/client/rest"
-	"github.com/cosmos/modules/incubator/nft/simulation"
-	"github.com/cosmos/modules/incubator/nft/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/client/cli"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/client/rest"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/simulation"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/types"
 )
 
 var (

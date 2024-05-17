@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/modules/incubator/nft"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft"
 )
 
 func TestInitGenesis(t *testing.T) {
