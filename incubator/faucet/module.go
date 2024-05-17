@@ -6,11 +6,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
+	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/modules/incubator/faucet/client/cli"
-	"github.com/cosmos/modules/incubator/faucet/client/rest"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/faucet/client/cli"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/faucet/client/rest"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"

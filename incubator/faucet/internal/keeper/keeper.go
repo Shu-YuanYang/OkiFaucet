@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/modules/incubator/faucet/internal/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/faucet/internal/types"
 	"github.com/tendermint/tendermint/libs/log"
 	"time"
 )

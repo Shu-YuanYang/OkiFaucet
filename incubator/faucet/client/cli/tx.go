@@ -4,20 +4,20 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
+	"github.com/cosmos/cosmos-sdk/crypto"
+	//"github.com/cosmos/cosmos-sdk/crypto/keys"
 	"github.com/spf13/viper"
 	"time"
 
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"github.com/cosmos/modules/incubator/faucet/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/client"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/faucet/internal/types"
 )
 
 // GetTxCmd return faucet sub-command for tx

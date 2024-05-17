@@ -2,16 +2,16 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/supply/exported"
+	"github.com/cosmos/cosmos-sdk/x/bank/exported"
 )
 
 // SupplyKeeper is required for mining coin
 type SupplyKeeper interface {
 	MintCoins(ctx sdk.Context, moduleName string, amt sdk.Coins) error
 	SendCoinsFromModuleToAccount(
-		ctx sdk.Context, senderModule string, recipientAddr sdk.AccAddress, amt sdk.Coins,
+		ctx sdk.Context, senderModule string, recipientAddr sdk.AccAddress, amt sdk.Coins
 	) error
-	GetSupply(ctx sdk.Context) (supply exported.SupplyI)
+	GetSupply(ctx sdk.Context, denom string) sdk.Coin
 }
 
 // StakingKeeper is required for getting Denom
