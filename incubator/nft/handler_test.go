@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/modules/incubator/nft"
-	"github.com/cosmos/modules/incubator/nft/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/types"
 )
 
 const (

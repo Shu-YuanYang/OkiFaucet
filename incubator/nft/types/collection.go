@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/modules/incubator/nft/exported"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/exported"
 )
 
 // Collection of non fungible tokens

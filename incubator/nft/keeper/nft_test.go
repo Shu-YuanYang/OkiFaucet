@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/modules/incubator/nft/keeper"
-	"github.com/cosmos/modules/incubator/nft/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/keeper"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/types"
 )
 
 func TestMintNFT(t *testing.T) {

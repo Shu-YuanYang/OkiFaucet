@@ -11,7 +11,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/modules/incubator/nft/types"
+	"github.com/Shu-YuanYang/OkiFaucet/incubator/nft/types"
 )
 
 var (
